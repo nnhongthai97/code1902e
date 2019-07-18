@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Các toán tử phổ biến trong php</h1>
-<h1>Trong php sử dụng dấu . để chuỗi</h1>
+<h1>Trong php sử dụng dấu . để nối chuỗi chuỗi</h1>
 <?php
 $a = 5;
 $b = 2;
