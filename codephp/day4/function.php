@@ -25,12 +25,13 @@
 /*
      * Khai báo hàm với $r là tham số cần truyền vào
      */
-function tinhchuvihinhtron($r = 10) {
+function tinhchuvihinhtron() {
+    $r = 10;
     $chuvi = 3.14*$r*2;
     return $chuvi;
 }
 // gọi hàm
-$ketqua = tinhchuvihinhtron(10);
+$ketqua = tinhchuvihinhtron();
 echo "<br> Chu vi hinh tron là : " . $ketqua;
 
 ?>
