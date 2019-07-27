@@ -7,7 +7,9 @@
 </head>
 <body>
 <h1>$_GET trong PHP sẽ lấy giá trị post đi từ form có method="get"</h1>
-<p>-Phương thức GET gửi dữ liệu từ client lên server thông qua các paramter( tham số) trên URL, từ đó server sẽ phân tích dữ liệu để thực thi một hành động nào đó. Các tham số mà phương thức GET gửi lên sẽ bắt đầu sau dấu ? .
+<p>-Phương thức GET gửi dữ liệu từ client lên server thông qua các paramter( tham số) trên URL,
+    từ đó server sẽ phân tích dữ liệu để thực thi một hành động nào đó.
+    Các tham số mà phương thức GET gửi lên sẽ bắt đầu sau dấu ? .
     Và sẽ nối nhau giữa các khóa thông qua dấu &</p>
 <h1>Khi post data từ form có method="get" thì data sẽ xuất hiện trên URL</h1>
 <?php
