@@ -19,16 +19,26 @@
         }
     </pre>
 <?php
-    $arr1 = array(2,4,6,8);
-    echo "<br> Rút gọn";
-    foreach($arr1 as $value) {
-        echo "<br>" . $value;
-    }
-    echo "<br> Đầy đủ";
-    foreach($arr1 as $key => $value) {
-        echo "<br> key là : " . $key;
-        echo "<br> value là : " . $value;
-    }
-    ?>
+// Danh sách các năm
+$nam = array(
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995
+);
+
+//Dùng foreach xuất ra các năm trong $nam
+foreach ($nam as $key => $value){
+    echo $value;
+}
+    /*Vòng lặp foreach tự động lặp qua các phần tử trong mảng,
+    nó lặp cho khi nào tới phần tử cuối cùng thì thôi.
+    Như ở ví dụ trên thì $nam là mảng ta truyền vào,
+    $key và $value là 2 tham số mà ở mỗi vòng lặp nó tự động truyền giá trị vào đó và
+    chúng ta chỉ việc sử dụng
+    */
+?>
 </body>
 </html>
