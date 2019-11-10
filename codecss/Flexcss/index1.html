@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="normalize.css" rel="stylesheet">
+    <style type="text/css">
+        .container {
+            background-color: red;
+            margin: auto;
+            max-width: 960px;
+            max-height: 1000px;
+            padding: 5px;
+            display: flex;/* Flex Box */
+            flex-wrap: wrap;
+            justify-content: center;/* Flex Box */
+
+        }
+
+        .item {
+            background-color: aqua;
+            text-align: center;
+            margin: 5px;
+            height: 50px;
+            line-height: 50px;
+            width: 1000px; /* Flex Box */
+        }
+        /*
+        .item2{
+            flex-shrink: 2; item 2 sẽ co lại so với các item khác khi thu nhỏ kích thước trinh duyệt
+        }
+        .item3{
+            flex-shrink:3; item 3 sẽ co lại bằng 3 lần so với item2
+        */
+
+
+        /*
+        .item1 {
+            flex-grow: 1; item 1 sẽ là rộng nhất(k hỗ trợ trên chrome)
+        }
+
+        .item2 {
+            flex-grow: 3; item 2 sẽ gấp 3 lần item1
+        }
+        */
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+</div>
+<pre>
+    flex-directive:column(để hiển thị item theo chiều dọc(mặc định là chiều ngang))
+    justify-content:center(để xác định vị trí hiển thị cho tất cả các item trong container(trái,phải,giữa)
+    flex-wrap: wrap;(để hiển thị item theo chiều dọc khi dùng width)
+    order:1(đổi vị trí các item trong container)
+    flex-grow: 1; (k hỗ trợ trên chrome)(item đc chọn sẽ mở rộng ra)
+    flex-shrink:3;(k hỗ trợ trên chrome)(item đc chọn sẽ thu gọn lại)
+    flex-basis:500px(k hỗ trợ trên chrome)(item đc chọn sẽ có kich thước bằng 500px)
+</pre>
+</body>
+</html>

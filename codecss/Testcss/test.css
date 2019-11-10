@@ -1,0 +1,11 @@
+.container{
+    background-color: red;
+    margin: auto;
+    max-width: 960px;
+    max-height: 1000px;
+    padding: 5px;
+}
+.item{
+    background-color: aqua;
+
+}
