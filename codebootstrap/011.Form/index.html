@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1>Bootstrap stack form</h1>
+        <div class="col-md-12">
+            <form name="login" action="" method="post">
+                <div class="form-group">
+                    <label for="inmail">Email</label>
+                    <input type="email" name="email" value="" placeholder="Nhập email" id="inmail" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="inpw">Password</label>
+                    <input type="password" name="password" class="form-control" id="inpw" placeholder="Nhập Pass" value="" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="submit" value="Login" class="btn btn-success">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <h1>Bootstrap inline form</h1>
+        <div class="col-md-12">
+            <form name="login" action="" method="post" class="form-inline">
+                <label for="inEmail">Email</label>
+                <input type="email" name="email" value="" placeholder="Nhập Email" id="inEmail" class="form-control">
+                <label>Password</label>
+                <input type="password" name="password" class="form-control" placeholder="Nhập Pass" value="" />
+                <input type="submit" name="submit" value="Login"  class="btn btn-success">
+            </form>
+        </div>
+    </div>
+
+    <h2>Form Validation</h2>
+    <p>In this example, we use <code>.needs-validation</code>, which will add the validation effect AFTER the form has been submitting (if there's anything missing).</p>
+    <p>Try to submit this form before filling out the input fields, to see the effect.</p>
+</div>
+</body>
+</html>
